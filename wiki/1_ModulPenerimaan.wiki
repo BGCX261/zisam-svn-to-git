@@ -1,0 +1,46 @@
+#summary Modul Penerimaan ZISAM
+#labels Phase-Design,Featured
+
+= Pengantar =
+
+Adalah modul yang berfungsi untuk melakukan pencatatan 3 input utama aplikasi ZISAM:
+  # Pencatatan Data Muzzaki
+  # Pencatatan Data Pembayaran ZIS
+  # Pencatatan Data Mustahiq
+
+
+= 1.1 Pencatatan Data Muzzaki =
+Entri Data Muzzaki sebagai berikut:
+  # Muzzaki ID: unik dan dibuat oleh system
+  # Nama Kepala Keluarga: kepala keluarga atau nama diri untuk individu
+  # Alamat Rumah - Jalan & Nomor Rumah:
+  # Alamat Rumah - RT/RW:
+  # Alamat Rumah - Kota:
+  # Alamat Rumah - Provinsi:
+  # Alamat Rumah - Kode Pos:
+  # No Telpon Rumah:
+  # No Telpon Mobile (HP):
+  # Nama anggota keluarga - 1 s/d n: untuk data zakat fitrah
+
+= 1.2 Pencatatan Data Pembayaran ZIS =
+Entri Data Pembayaran ZIS sebagai berikut:
+  # Muzzaki ID: lookup dari database muzzaki
+  # Zakat Fitrah Beras (l/kg):
+  # Zakat Fitrah Uang (Rp):
+  # Zakat Mal (Rp):
+  # Infaq (Rp):
+  # Shadaqah (Rp):
+  # Individu atau Keluarga: check box pilihan
+
+= 1.3 Pencatatan Data Mustahiq =
+Entri Data Mustahiq sebagai berikut:
+  # Nama Lengkap Penanggung Jawab:
+  # Nama Lengkap Individu/Lembaga:
+  # Alamat Lengkap:
+  # Alamat Provinsi:
+  # Alamat Kode Pos:
+  # No Telpon:
+  # No Mobile (HP) Penanggung Jawab:
+  # Jumlah Mustahiq:
+  # No Surat Pengajuan:
+  # Individu atau Lembaga: check box pilihan
